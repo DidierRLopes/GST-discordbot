@@ -10,6 +10,7 @@ import pyimgur
 
 import config_discordbot as cfg
 
+'''
 # Logging
 logger = logging.getLogger("discord")
 logging.basicConfig(level=logging.INFO)  # DEBUG/INFO/WARNING/ERROR/CRITICAL
@@ -24,7 +25,7 @@ handler.setFormatter(
     logging.Formatter("%(asctime)s:%(levelname)s:%(name)s: %(message)s")
 )
 logger.addHandler(handler)
-
+'''
 
 activity = discord.Game(
     name="Gamestonk Terminal: https://github.com/GamestonkTerminal/GamestonkTerminal"
